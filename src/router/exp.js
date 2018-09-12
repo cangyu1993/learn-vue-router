@@ -32,8 +32,6 @@ router.post("/login",(req,res)=>{
                code:200,
                msg:"登陆成功"
            })
-       }else{
-             alert("登陆失败")
        }
 })
 
