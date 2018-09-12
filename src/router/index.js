@@ -12,6 +12,11 @@ export default new Router({
       component: ()=>import('../components/HelloWorld')
     },
     {
+      path: '/login',
+      name:"login",
+      component: ()=>import('../components/login')
+    },
+    {
       path: '/xuyong:id',
       component: xuyong
     }
