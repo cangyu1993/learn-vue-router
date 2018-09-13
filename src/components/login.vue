@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="login">
        <h1>我是登陆页面</h1>
        <input type="text" v-model="username">
        <br>
@@ -35,5 +35,7 @@
 </script>
 
 <style scoped>
-
+.login{
+    margin: 300px 400px;
+}
 </style>
